@@ -1,0 +1,40 @@
+{
+  "name": "sdf-cli-service",
+  "version": "0.0.5",
+  "description": "sdf-cli-service",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-sdf-app": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemfordesign/sdf-cli.git"
+  },
+  "author": "DevinShi",
+  "keywords": [
+    "cli",
+    "sdf",
+    "node",
+    "create"
+  ],
+  "bugs": {
+    "url": "https://github.com/systemfordesign/sdf-cli/issues"
+  },
+  "homepage": "https://github.com/systemfordesign/sdf-cli#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "execa": "^2.0.4",
+    "inquirer": "^6.5.1",
+    "listr": "^0.14.3",
+    "log-update": "^2.3.0",
+    "rxjs": "^6.5.2",
+    "shelljs": "^0.8.3",
+    "user-home": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0"
+  }
+}
