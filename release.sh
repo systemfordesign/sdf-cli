@@ -10,7 +10,7 @@
 # @Author: Devin Shi
  # @Email: yutian.shi@definesys.com
  # @Date: 2019-08-21 16:01:47
- # @LastEditTime: 2019-08-23 16:43:40
+ # @LastEditTime: 2019-08-23 16:45:43
  # @LastEditors: Devin Shi
  # @Description: 
  ###
@@ -42,3 +42,5 @@ git push origin master
 git tag ${tagName}
 #推到分支上
 git push origin ${tagName}
+
+#推到 npm 上
